@@ -6,10 +6,12 @@ export default class Header extends Component {
     return (
       <div className="header">
         <h1>Employee Directory</h1>
-        <p>
-          Click on carrots to filter by heading or use the search box to narrow
-          your results.
-        </p>
+        <h3>
+          <p>
+            Click on Search filter to find employees by there Name,Phone,Email
+            or DOB narrow your results.
+          </p>
+        </h3>
       </div>
     );
   }
